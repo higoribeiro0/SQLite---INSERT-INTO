@@ -3,7 +3,7 @@ from sqlite3 import Error
 
 ###Criar conexao
 def ConexaoBanco():
-    caminho="D:\\Python\\Aulas\\Banco\\agenda.db"
+    caminho="D:\\Python\\Banco\\agenda.db"
     con=None
     try:
         con=sqlite3.connect(caminho)
