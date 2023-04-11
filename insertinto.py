@@ -24,6 +24,6 @@ def insert(conexao,sql):
         c=conexao.cursor()
         c.execute(sql)
         conexao.commit()
-        print("Registro inserido")
+        print("Registro Inserido")
     except Error as ex:
         print(ex)
